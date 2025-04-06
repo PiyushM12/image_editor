@@ -3,7 +3,7 @@ import { api } from '@/convex/_generated/api';
 import { useUser } from '@stackframe/stack'
 import { useMutation } from 'convex/react';
 import React, { useEffect, useState } from 'react'
-import { CreateNewUser } from '@/convex/users';
+
 import { UserDetailContext } from '@/context/UserDetailContext';
 
 const Provider = ({children}) => {
